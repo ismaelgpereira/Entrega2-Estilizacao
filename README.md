@@ -104,7 +104,7 @@ Entrega2-estilizacao/
 
 ---
 
-## ✅ Validação W3C
+## Validação W3C
 
 Todos os arquivos HTML foram testados e validados no  
 [W3C Validator](https://validator.w3.org/) garantindo conformidade com os padrões HTML5.
