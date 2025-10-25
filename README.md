@@ -13,7 +13,7 @@ Projeto desenvolvido como parte da **Entrega 2** da disciplina **Fundamentos e E
 
 ---
 
-## 🧱 Estrutura do Projeto
+## Estrutura do Projeto
 
 Entrega2-estilizacao/
 ├─ index.html
