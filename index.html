@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Companhia Vale de Servicos — Home</title>
+<link rel="stylesheet" href="css/base.css" />
+<link rel="stylesheet" href="css/layout.css" />
+<link rel="stylesheet" href="css/components.css" />
+<link rel="stylesheet" href="css/styles.css" />
+
+</head>
+<body>
+<header>
+  <div class="container">
+    <img src="images/logo.png" alt="Logo Nome da Organização" id="logo" />
+
+    <!-- Botão hambúrguer (mobile) -->
+    <button class="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu">
+      ☰
+    </button>
+
+    <nav>
+      <ul id="menu">
+        <li><a href="index.html">Início</a></li>
+
+        <!-- Item com submenu -->
+        <li class="has-submenu">
+          <a href="projetos.html">Projetos</a>
+          <ul class="submenu">
+            <li><a href="projetos.html#sobreaempresa">Sobre a Empresa</a></li>
+            <li><a href="projetos.html#projetos">Projetos</a></li>
+            <li><a href="projetos.html#Contato">Contato</a></li>
+          </ul>
+        </li>
+
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Companhia Vale de Servicos</h1> 
+        <p>Somos uma organização dedicada a manutencao e prestacao de servicos a grandes e pequenas empresas. </p>
+        <img src="images/hero.jpg" alt="Confiabilidade é o nosso negócio" />
+      </div>
+    </section>
+
+    <section class="sobre container" id="sobre">
+      <h2>Sobre nós</h2>
+      <p>Endereço: Avenida Feira de Santana, São José dos Campos. </p>
+      <p>E-mail: contato@cvs.com | Telefone: +353 83 033 8464 </p>
+    </section>
+
+    <section class="contato container" id="contato">
+      <h2>Contato</h2>
+      <address>
+        <p>Avenida Feira de Santana, 123 — São José dos Campos</p>
+        <p>E-mail: <a href="mailto:contato@cvs.com">contato@exemplo.org</a></p>
+        <p>Telefone: +353 83 033 8464</p>
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="ano"></span> Companhia Vale de Servicos — Todos os direitos reservados.</p>
+    </div>
+    <script>
+      // atualiza ano no rodapé
+      document.getElementById('ano').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+
+  <script src="js/masks.js" defer></script>
+</body>
+</html>
+
